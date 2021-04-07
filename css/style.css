@@ -1,0 +1,36 @@
+body {
+  background-color: antiquewhite;
+  /* el !important sirve para que si tenes en lugares diferentes
+  la misma cosa con órdenes diferentes, que le de importancia a esto. */
+}
+#header{
+  background-color: white;
+  /* Pone de color gris todo lo que esté dentro de #menu */
+  margin: 15px 100px;
+  /* Le doy margen al header */
+  padding: 0.5px;
+   /* Da margen al título dentro del header */
+  font-size: 30px;
+  text-align: center;
+}
+
+.links {
+  font-size: 20px;
+  /* Llamamos a la clase poniendo el nombre seguido de un punto */
+}
+
+#main{
+  background-color: #F0D7E9;
+  /* width: 90%; */
+  /* el 80% significa que esa va a ser su visibilidad con respecto
+  al tamaño total de la pantalla */
+  margin: 25px 50px auto;
+  /* 50 px arriba y abajo y 50px en ambos costados. */
+  /* el auto rellena los espacios libres para q esté centrado. */
+  /* tmb sirve text-align: center */
+}
+
+#footer{
+  color: #8200A5;
+}
+/* https://htmlcolorcodes.com/es/ */

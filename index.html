@@ -3,19 +3,64 @@
   <head>
     <meta charset="utf-8">
     <title>Para Clase</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- <style media="screen">
+      body{
+        background-color: blue;
+      }
+    </style>
+    -->
+    <!-- SI YO PONGO EL <STYLE> MÁS ABAJO DEL LINK QUE LLEVA
+  A STYLE.CSS ENTONCES SIEMPRE LE VA A DAR MÁS IMPORTANCIA A LO DE ABAJO -->
   </head>
   <body>
-    <h1>BIENVENIDO A LA PÁGINA PRINCIPAL</h1>
-    <h3>Esta es la página principal, donde van a haber algunos enlaces que nos llevarán a los siguientes sitios: </h3>
+    <div id="header">
+      <h1>BIENVENIDO A LA PÁGINA PRINCIPAL</h1>
+      <!-- el id="main-title" sirve para identificarlo como único -->
+    </div>
 
+    <div id="main">
+      <h3>Esta es la página principal, donde van a haber algunos enlaces que nos llevarán a los siguientes sitios: </h3>
       <li><b>El enlace a mi currículum: </b></li>
-      <a href="cv.html" target="_blank">Enlace al currículum</a> <br>
+      <a href="cv.html" target="_blank" class="links">Enlace al currículum</a> <br>
       <hr>
       <li><b>El enlace a mi biografía: </b></li>
-      <a href="bio.html" target="_blank">Enlace a la biografía</a><br>
+      <a href="bio.html" target="_blank" class="links">Enlace a la biografía</a><br>
       <hr>
       <li><b>El enlace a mi información de contacto: </b></li>
-      <a href="contact.html" target="_blank">Enlace a la info de contacto</a><br>
+      <a href="contact.html" target="_blank" class="links">Enlace a la info de contacto</a><br>
+      <!-- El class="links" sirve para definir todos los links dentro de una misma Clase
+      y así poder modificarlos por igual desde la pestaña style.css -->
       <hr>
+      <img src="images/baby_yoda.jpeg"
+      alt="Baby Joda"
+      width="300px"
+      height="250px">
+    </div>
+
+    <div id="footer">
+      <!-- Esto va a ser el pie de página -->
+      <p>CopyRight Prog. III</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>

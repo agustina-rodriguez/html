@@ -3,43 +3,62 @@
   <head>
     <meta charset="utf-8">
     <title>Currículum</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
+  <style media="screen">
+  * {
+      font-family: 'Cambria' !important;
+    }
+    /* esto solo actualiza la pg del cv porque está escrito
+    específicamente en cv.html, si estuviera en style.css entonces
+    cambiarían todos. */
+  </style>
   <body>
-    <h1>CURRÍCULUM VITAE</h1>
-    <h3>A continuación, mencionaremos los idiomas hablados y su nivel:</h3>
-    <ol>
-      <li>Español:
-        <ul>
-          <li><b><u>Lengua materna</u></b></li>
-          <li>Nivel superior</li>
-          <li>Nivel medio</li>
-          <li>Nivel bajo</li>
-        </ul>
-        <li>Inglés:
+    <div id="header">
+      <h1>CURRÍCULUM VITAE</h1>
+      <!-- text-shadow: px px color <- sirve para la sombra del title -->
+    </div>
+
+    <div id="main">
+      <h3>A continuación, mencionaremos los idiomas hablados y su nivel:</h3>
+      <ol>
+        <li>Español:
           <ul>
-            <li>Lengua materna</li>
+            <li><b><u>Lengua materna</u></b></li>
             <li>Nivel superior</li>
-            <li><b><u>Nivel medio</u></b></li>
+            <li>Nivel medio</li>
             <li>Nivel bajo</li>
           </ul>
-          <li>Francés:
+          <li>Inglés:
             <ul>
               <li>Lengua materna</li>
               <li>Nivel superior</li>
-              <li>Nivel medio</li>
-              <li><b><u>Nivel bajo</u></b></li>
+              <li><b><u>Nivel medio</u></b></li>
+              <li>Nivel bajo</li>
             </ul>
-            <li>Valenciano:
+            <li>Francés:
               <ul>
                 <li>Lengua materna</li>
                 <li>Nivel superior</li>
-                <li><b><u>Nivel medio</u></b></li>
-                <li>Nivel bajo</li>
+                <li>Nivel medio</li>
+                <li><b><u>Nivel bajo</u></b></li>
               </ul>
+              <li>Valenciano:
+                <ul>
+                  <li>Lengua materna</li>
+                  <li>Nivel superior</li>
+                  <li><b><u>Nivel medio</u></b></li>
+                  <li>Nivel bajo</li>
+                </ul>
+              </li>
             </li>
           </li>
         </li>
-      </li>
-    </ol>
+      </ol>
+    </div>
+
+    <div id="footer">
+      
+    </div>
   </body>
 </html>
